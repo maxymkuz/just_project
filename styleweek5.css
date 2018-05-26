@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.nav{
+	background-image: url(tesla.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+
+.logo{
+	color:white;
+	font-size: 1.6em;
+	padding:12px;
+	margin-left: 1vw;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+.fa-fire{
+	font-size: 22px;
+}
+li{
+	list-style: none;
+}
+ul{
+	height: 10vh;
+	background-color: #d6d6d6;
+	display: flex;
+	align-items: center;
+}
+nav{
+	border-bottom: 2px solid rgb(61, 64, 73);
+}
+.active{
+    color:rgb(196, 2, 234)  !important;
+}
+.right{
+	margin-left: auto;
+}
+
+
+
+a:hover{
+	color :red;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	margin-top: 20vh;
+	font-size: 4em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+h2{
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+.white{
+	color: white;
+}
+button{
+	background-color:#3979dd;
+	width: 13vw;
+	height: 8vh;
+	border:0;
+	border-radius: 3vh;
+	outline: none;
+}
+button:active{
+	background-color: rgb(87, 96, 229);
+}
+.flex1{
+	display: flex;
+	justify-content: center;
+}
+.tick{
+	width: 40%;
+	display: flex;
+}
+.fa-check-circle{
+	font-size: 4em;
+}
+
+
+
+
+
+.cen{
+	text-align: center;
+}
+.teslafront{
+	width: 40%;
+	margin: 10vh 2% 20vh 9%;
+	display: inline-block;
+}
+.borcar{
+	width: 100%;
+	border-radius: 40%
+}
+.teslafront1{
+	width: 39%;
+	margin: 10vh 9% 20vh 0;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.button1{
+	margin-top: 5vh;
+}
+.qwe1,.qwe2,.qwe3{
+    width: 33.3%;
+	height:37vh;
+	margin:0;
+	display: flex;
+	float: left;
+	text-align: center;
+	align-items: center;
+}
+.qwe1{
+	background-image: url(tesla1.jpg);
+	background-size: 100%;
+
+}
+.qwe2{
+	background-image: url(tesla6.jpg);
+	background-size: 100%;
+}
+.qwe3{
+	background-image: url(tesla3.jpg);
+	background-size: 100%;
+}
+
+
+section div p{
+	text-align: center;
+	font-size: 1.7em;
+	padding-top: 6vh;
+
+}
+section div .qwerty{
+	text-align: center;
+	font-size: 1em;
+	padding-top: 6vh;
+}
+.margin{
+	margin:0 20% 5vh 20%;
+	text-align: center;
+}
+.margin1 {
+	margin:0 10% 0 10%;
+}
+
+.img {
+	width:100% ;
+	height:100% ;
+}
+
+.qwe{
+	width: 45%;
+	height:40vh;
+	margin:0 2% 0 2%;
+	padding: 5vh 0 0 0;
+	min-width: 370px;
+	max-width: 450px;
+}
+hr{
+	background-color:#0061ff;
+	height: 1.5px;
+	margin:0 43% 0 43%;
+}
+
+
+img{
+	max-width: 100%;
+}
+.fon{
+	background-image: url(back.jpg);
+	padding-bottom: 150px;
+}
+span{
+	background-color: black;
+	width:18px;
+	height: 2px;
+	display: inline-block;margin-bottom: 3.52px;
+}
+.ginmar{
+	text-align: center;
+}
+input{
+	width: 60%;
+	height: 8vh;
+	margin-right: 1vw;    padding-left: 10px;
+    font-size: 1.3em;
+}
+.qwerty{
+	padding-bottom: 30px;
+}
+.d{
+padding-top: 10vh;
+}

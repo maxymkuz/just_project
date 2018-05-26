@@ -1,0 +1,161 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+     background-image: url(back.jpg);
+}
+
+li{
+    font-family: 'Baloo Bhai', cursive;
+}
+#wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+   
+}
+
+img{
+    max-width: 100%;
+}
+#gallery{
+    margin-top: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#gallery li{
+    display: inline-block;
+    width: 43%;
+    margin: 2.5%;
+    background-color: rgb(255, 226, 250);
+    color: #bdc3c7; 
+}
+#gallery li a p{
+    margin:0;
+    padding:5%;
+    color:rgb(61, 42, 96);
+    text-align: center;
+}
+
+.block1, .block2{
+    display: inline-block;
+    vertical-align: top;
+    width: 68%;
+    margin-top:5%;
+    margin-bottom: 5%;
+      
+}
+.block1{
+    width: 30%;
+    text-align: center;
+}
+.block1 img{
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+}
+.block2 p{
+    line-height: 1.5;
+}
+.blue{
+    color: blue;
+}
+/* footer*/
+footer {
+    clear: both;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.icon {
+    color: black;
+    font-size: 20px;
+}
+.wrap>div{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 2px;
+    color: black;
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.wrap{
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;/* (типу медіа переносить блоки)  */
+    /*
+    flex-direction:column;*/
+    /*flex-direction: row;за замовчуванням жrow-reverrse(задом наперед);*/
+    justify-content:space-around;/*(рівномірні відступи для блоків)*/
+    /*space-between;(рывномырно розкинуться) */
+    justify-content: flex-start;/*center;*//*(flex-start;flex-end)*/
+    align-items: flex-end;/*(end;strach-замовчування;вирівнюються по висоті)*/
+    /*align-content:space-between,so;*/
+    /*(коли row justify-content-горизонталь align-items-вертикаль;;;коли column то навпаки вертикаль і горизонталь)*/
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.num1{
+order: 3;/*(коли дісплей флекс)*/
+}
+.num2{
+   order: 1; 
+}
+.num3{
+    order: 2;
+}
+
+
+
+
+
+
+
+
+
+
+/*contacts*/
+.contacts li a{
+    color:black;
+}
+
+/* MEDIA*/
+@media screen and (max-width:600px){
+    #gallery li {
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (max-width:570px){
+    .block1, .block2{
+        display: block;
+        width: 100%;
+        text-align: center; 
+    }
+}
+    
+@media screen and  (max-width:400px){
+    nav li{
+        display: block;
+    }
+    footer ul li{
+        display: block;
+    }
+}
+
